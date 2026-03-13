@@ -1,5 +1,3 @@
-Here is a complete README.md in pure Markdown that you can copy-paste directly into your repo.
-
 # 📊 Trader Behavior vs Market Sentiment Analysis
 
 ## Overview
@@ -156,27 +154,29 @@ Dashboard features:
 
 # 📁 Project Structure
 
+```
 
 trader-behavior-analysis
 │
 ├── data
-│ ├── historical_data.csv
-│ └── fear_greed_index.csv
+│   ├── historical_data.csv
+│   └── fear_greed_index.csv
 │
 ├── scripts
-│ └── analysis.py
+│   └── analysis.py
 │
 ├── results
-│ ├── profit_vs_sentiment.png
-│ ├── trades_by_sentiment.png
-│ ├── buy_sell_sentiment.png
-│ ├── top_traders.csv
-│ └── top_coins.csv
+│   ├── profit_vs_sentiment.png
+│   ├── trades_by_sentiment.png
+│   ├── buy_sell_sentiment.png
+│   ├── top_traders.csv
+│   └── top_coins.csv
 │
 ├── app.py
 ├── requirements.txt
 └── README.md
 
+````
 
 ---
 
@@ -184,36 +184,35 @@ trader-behavior-analysis
 
 ## 1️⃣ Clone the Repository
 
-
-git clone https://github.com/YOUR_USERNAME/trader-behavior-analysis
-
+```bash
+git clone https://github.com/Aryanonghub/trader-behavior-analysis
 cd trader-behavior-analysis
-
+````
 
 ---
 
 ## 2️⃣ Create Conda Environment
 
-
+```bash
 conda create -n trader_analysis python=3.10
 conda activate trader_analysis
-
+```
 
 ---
 
 ## 3️⃣ Install Dependencies
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
 ## 4️⃣ Run Data Analysis
 
-
+```bash
 python scripts/analysis.py
-
+```
 
 This will generate charts and results inside the **results/** folder.
 
@@ -221,15 +220,15 @@ This will generate charts and results inside the **results/** folder.
 
 ## 5️⃣ Run the Dashboard
 
-
+```bash
 streamlit run app.py
-
+```
 
 The dashboard will open at:
 
-
+```
 http://localhost:8501
-
+```
 
 ---
 
@@ -237,11 +236,11 @@ http://localhost:8501
 
 Potential extensions for this project:
 
-- Trader **win-rate analysis** across sentiment regimes
-- Risk-adjusted performance metrics
-- Time-series analysis of sentiment impact
-- Machine learning models to predict trader profitability
-- Real-time sentiment monitoring dashboard
+* Trader **win-rate analysis** across sentiment regimes
+* Risk-adjusted performance metrics
+* Time-series analysis of sentiment impact
+* Machine learning models to predict trader profitability
+* Real-time sentiment monitoring dashboard
 
 ---
 
@@ -249,5 +248,5 @@ Potential extensions for this project:
 
 **Aryan Kumar Poddar**
 
-B.Tech Computer Science & Engineering  
+B.Tech Computer Science & Engineering
 Galgotias University
